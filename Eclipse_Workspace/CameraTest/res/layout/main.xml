@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	
+<TableLayout android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"	
+	android:gravity="center"
+	android:stretchColumns="*">
+	
+	<TableRow>
+		<Button android:id="@+id/Snapshoot"
+			android:text="Snapshoot" android:layout_marginTop="5dip" android:layout_marginBottom="5dip"/>
+		<Button android:id="@+id/AddFace"
+			android:text="Add Face" android:layout_marginTop="5dip" android:layout_marginBottom="5dip"/>
+		<Button android:id="@+id/imgaeTest"
+		android:text="Image Test" android:layout_marginTop="5dip" android:layout_marginBottom="5dip"/>		
+		<Button android:id="@+id/returnPreview"
+		android:text="Return PreView" android:layout_marginTop="5dip" android:layout_marginBottom="5dip"/>	
+	</TableRow>
+	
+</TableLayout>
+		
+<SurfaceView android:id="@+id/surface"
+	android:layout_width="fill_parent" android:layout_height="10dip"
+	android:layout_weight="1"/> 
+
+    
+    </LinearLayout>

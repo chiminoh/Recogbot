@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+ <TableLayout android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"	
+	android:gravity="center"
+	android:stretchColumns="*" android:layout_gravity="center" android:layout_marginTop="480"/>
+	
+	<TableRow>
+		<Button android:id="@+id/Snapshoot"
+			android:text="  정    지  " android:layout_marginTop="5dip" android:layout_marginBottom="5dip"/>
+		<Button android:id="@+id/AddFace"
+			android:text="  직    진  " android:layout_marginTop="5dip" android:layout_marginBottom="5dip"/>
+		<Button android:id="@+id/imgaeTest"
+		android:text="  후    진  " android:layout_marginTop="5dip" android:layout_marginBottom="5dip"/>		
+		<Button android:id="@+id/returnPreview"
+		android:text="  좌 회 전  " android:layout_marginTop="5dip" android:layout_marginBottom="5dip"/>
+		<Button android:id="@+id/returnPreview"
+		android:text="  우 회 전  " android:layout_marginTop="5dip" android:layout_marginBottom="5dip"/>	
+	</TableRow>
+	
+</TableLayout>
+
+</LinearLayout>

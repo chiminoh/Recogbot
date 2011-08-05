@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button android:text="    UP   " android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right"></Button>
+    </LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" android:layout_gravity="right">
+
+		<Button android:text="  LEFT   " android:id="@+id/button4" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    	<Button android:text="RIGHT" android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+	
+    <Button android:text=" DOWN" android:id="@+id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right"></Button>
+    
+
+</LinearLayout>

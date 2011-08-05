@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OmniCameraTest", "ImagelabRobot.vcxproj", "{DF29F560-9777-46CE-928E-56895CE142DA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{88704D3F-ABA0-4013-8179-1840A8273DBB} = {88704D3F-ABA0-4013-8179-1840A8273DBB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Devices", "Devices.vcxproj", "{88704D3F-ABA0-4013-8179-1840A8273DBB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KinectConsoleTest", "KinectConsoleTest.vcxproj", "{9D8F70FE-695C-41B7-861F-6577FD44FB94}"
+	ProjectSection(ProjectDependencies) = postProject
+		{88704D3F-ABA0-4013-8179-1840A8273DBB} = {88704D3F-ABA0-4013-8179-1840A8273DBB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF29F560-9777-46CE-928E-56895CE142DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DF29F560-9777-46CE-928E-56895CE142DA}.Debug|Win32.Build.0 = Debug|Win32
+		{DF29F560-9777-46CE-928E-56895CE142DA}.Release|Win32.ActiveCfg = Release|Win32
+		{DF29F560-9777-46CE-928E-56895CE142DA}.Release|Win32.Build.0 = Release|Win32
+		{88704D3F-ABA0-4013-8179-1840A8273DBB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{88704D3F-ABA0-4013-8179-1840A8273DBB}.Debug|Win32.Build.0 = Debug|Win32
+		{88704D3F-ABA0-4013-8179-1840A8273DBB}.Release|Win32.ActiveCfg = Release|Win32
+		{88704D3F-ABA0-4013-8179-1840A8273DBB}.Release|Win32.Build.0 = Release|Win32
+		{9D8F70FE-695C-41B7-861F-6577FD44FB94}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D8F70FE-695C-41B7-861F-6577FD44FB94}.Debug|Win32.Build.0 = Debug|Win32
+		{9D8F70FE-695C-41B7-861F-6577FD44FB94}.Release|Win32.ActiveCfg = Release|Win32
+		{9D8F70FE-695C-41B7-861F-6577FD44FB94}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

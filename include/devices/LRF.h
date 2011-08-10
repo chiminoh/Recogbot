@@ -2,7 +2,7 @@
 	CNU, IIMIL
 	Chi-Min Oh
 
-	Created in June, 2011 by Chi-Min Oh (sapeyes@image.chonnam.ac.kr)
+	Created in Aug, 2011 by Chi-Min Oh (sapeyes@image.chonnam.ac.kr)
 */
 
 #ifndef RECOGBOT_DEVICES_LRF_H

@@ -27,14 +27,13 @@
     <ClInclude Include="..\include\devices\LRF.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-<<<<<<< HEAD
     <ClInclude Include="..\include\devices\Joystick.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="..\include\devices\DeviceSwig.h">
-=======
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
     <ClInclude Include="..\include\devices\Whell.h">
->>>>>>> chao/master
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -48,14 +47,13 @@
     <ClCompile Include="..\src\devices\LRF.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-<<<<<<< HEAD
     <ClCompile Include="..\src\devices\Joystick.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="..\src\devices\DeviceSwig.cpp">
-=======
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="..\src\devices\Whell.cpp">
->>>>>>> chao/master
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

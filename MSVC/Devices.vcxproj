@@ -87,12 +87,14 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\devices\DeviceSwig.h" />
     <ClInclude Include="..\include\devices\Joystick.h" />
     <ClInclude Include="..\include\devices\kinect.h" />
     <ClInclude Include="..\include\devices\LRF.h" />
     <ClInclude Include="..\include\devices\OmniCamera.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\devices\DeviceSwig.cpp" />
     <ClCompile Include="..\src\devices\Joystick.cpp" />
     <ClCompile Include="..\src\devices\kinect.cpp" />
     <ClCompile Include="..\src\devices\LRF.cpp" />

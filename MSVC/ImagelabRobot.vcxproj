@@ -64,7 +64,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>recobotDevices.lib;PvAPI.lib;opencv_core220d.lib;opencv_highgui220d.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)test_omnicamera.exe</OutputFile>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
       <AdditionalLibraryDirectories>..\lib;..\lib\opencv;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>

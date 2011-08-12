@@ -1,7 +1,7 @@
 #include "devices/kinect.h"
 #include <iostream>
 #include "opencv2/opencv.hpp"
-
+#include "devices/Whell.h"
 using namespace Recogbot;
 using namespace std;
 

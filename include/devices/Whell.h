@@ -10,8 +10,6 @@
 
 namespace Recogbot {
 	class Whell {
-	public:
-		
 	};
 }
 #endif

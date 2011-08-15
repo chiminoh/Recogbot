@@ -3,8 +3,11 @@
 #include "opencv2/opencv.hpp"
 using namespace Recogbot;
 using namespace std;
+#include "..\include\devices\Psd.h"
 
 void main(void) {
+	PSD psd;
+	return;
 	OmniCamera omnicam;
 	cout << omnicam.connect();
 	IplImage *frame=cvCreateImage(cvSize(omnicam.getWidth(),omnicam.getHeight()),8,3);

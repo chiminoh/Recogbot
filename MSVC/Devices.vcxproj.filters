@@ -36,6 +36,9 @@
     <ClInclude Include="..\include\devices\Whell.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\devices\Psd.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\devices\kinect.cpp">
@@ -54,6 +57,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="..\src\devices\Whell.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\devices\Psd.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

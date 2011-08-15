@@ -7,11 +7,12 @@
 
 #ifndef RECOGBOT_DEVICES_PSD_H
 #define RECOGBOT_DEVICES_PSD_H
+#include <cstdio>
 
 namespace Recogbot {
 	class PSD {
 	public:
-		
+		PSD();
 	};
 }
 #endif

@@ -7,7 +7,7 @@
 
 #ifndef RECOGBOT_DEVICES_OMNICAMERA_H
 #define RECOGBOT_DEVICES_OMNICAMERA_H
-#include "PvAPI.h"
+#include "devices/PvAPI.h"
 #include "opencv/cv.h"
 
 namespace Recogbot {

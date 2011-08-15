@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KinectConsoleTest", "Kinect
 		{88704D3F-ABA0-4013-8179-1840A8273DBB} = {88704D3F-ABA0-4013-8179-1840A8273DBB}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WheelTest", "WheelTest.vcxproj", "{241EC9C2-B68F-4A7C-9BD7-1765B2DF7DCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -31,6 +33,10 @@ Global
 		{9D8F70FE-695C-41B7-861F-6577FD44FB94}.Debug|Win32.Build.0 = Debug|Win32
 		{9D8F70FE-695C-41B7-861F-6577FD44FB94}.Release|Win32.ActiveCfg = Release|Win32
 		{9D8F70FE-695C-41B7-861F-6577FD44FB94}.Release|Win32.Build.0 = Release|Win32
+		{241EC9C2-B68F-4A7C-9BD7-1765B2DF7DCE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{241EC9C2-B68F-4A7C-9BD7-1765B2DF7DCE}.Debug|Win32.Build.0 = Debug|Win32
+		{241EC9C2-B68F-4A7C-9BD7-1765B2DF7DCE}.Release|Win32.ActiveCfg = Release|Win32
+		{241EC9C2-B68F-4A7C-9BD7-1765B2DF7DCE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

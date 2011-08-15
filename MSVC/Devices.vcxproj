@@ -92,6 +92,7 @@
     <ClInclude Include="..\include\devices\kinect.h" />
     <ClInclude Include="..\include\devices\LRF.h" />
     <ClInclude Include="..\include\devices\OmniCamera.h" />
+    <ClInclude Include="..\include\devices\Psd.h" />
     <ClInclude Include="..\include\devices\Whell.h" />
   </ItemGroup>
   <ItemGroup>
@@ -100,6 +101,7 @@
     <ClCompile Include="..\src\devices\kinect.cpp" />
     <ClCompile Include="..\src\devices\LRF.cpp" />
     <ClCompile Include="..\src\devices\OmniCamera.cpp" />
+    <ClCompile Include="..\src\devices\Psd.cpp" />
     <ClCompile Include="..\src\devices\Whell.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

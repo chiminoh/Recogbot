@@ -87,6 +87,8 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
     </ClCompile>
     <Link>
       <AdditionalDependencies>recobotDevices.lib;PvAPI.lib;opencv_core220.lib;opencv_highgui220.lib;%(AdditionalDependencies)</AdditionalDependencies>
